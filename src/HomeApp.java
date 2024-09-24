@@ -12,12 +12,12 @@ public class HomeApp {
 
         boolean stop = false;
 
-while(!stop){
-    System.out.println("1.Turn on All");
-    System.out.println("2.Turn off All");
-    System.out.println("3.Exit");
-    System.out.println("Select an Option: ");
-    int choice = scan.nextInt();
+    while(!stop){
+        System.out.println("1.Turn on All");
+        System.out.println("2.Turn off All");
+        System.out.println("3.Exit");
+        System.out.println("Select an Option: ");
+        int choice = scan.nextInt();
 
     switch (choice){
         case 1:
